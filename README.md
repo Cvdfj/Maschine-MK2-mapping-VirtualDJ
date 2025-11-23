@@ -3,8 +3,6 @@ Working Maschine MK2 mapping for VirtualDJ
 
 Hi, ive made a mapping of the Maschine MK2 controller. The maschine is a great midi controller and you can get it now very cheap. :)
 
-These are the files contained into the ZIP file:
-
 1.- Folder Controller Editor Template:  
 VirtualDJ.ncm2 
 You have to install the Controller Editor from N.I. and then import these Template). You have to do this only once. Then its stored into the Maschine MK2 controller.
