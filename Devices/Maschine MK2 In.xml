@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<device name="Maschine MK2 In" description="Maschine MK2" version="850" type="MIDI" vid="0x17CC" pid="0x1140" drivername="Maschine MK2 In">
+
+  <!-- 16 Pads -->
+  <button note="0x0C" name="PAD1" channel="0" />
+  <button note="0x0D" name="PAD2" channel="0" />
+  <button note="0x0E" name="PAD3" channel="0" />
+  <button note="0x0F" name="PAD4" channel="0" />
+  <button note="0x10" name="PAD5" channel="0" />
+  <button note="0x11" name="PAD6" channel="0" />
+  <button note="0x12" name="PAD7" channel="0" />
+  <button note="0x13" name="PAD8" channel="0" />
+  <button note="0x14" name="PAD9" channel="0" />
+  <button note="0x15" name="PAD10" channel="0" />
+  <button note="0x16" name="PAD11" channel="0" />
+  <button note="0x17" name="PAD12" channel="0" />
+  <button note="0x18" name="PAD13" channel="0" />
+  <button note="0x19" name="PAD14" channel="0" />
+  <button note="0x1A" name="PAD15" channel="0" />
+  <button note="0x1B" name="PAD16" channel="0" />
+  
+  
+  
+  <button note="0x70" name="samplerMode1-scene" channel="0" />
+  <button note="0x71" name="samplerMode2-pattern" channel="0" />
+  <button note="0x72" name="samplerMode3-padmode" channel="0" />
+  <button note="0x73" name="samplerMode4-navigate" channel="0" />
+  <button note="0x74" name="samplerLoopMode-duplicate" channel="0" />
+  <button note="0x75" name="samplerSync-select" channel="0" />
+  <button note="0x62" name="activeDeck1-arrowLeft" channel="0" />
+  <button note="0x63" name="activeDeck2-arrowRight" channel="0" />
+  <button note="0x6F" name="samplerRec-noterepeat" channel="0" />
+  <button note="0x07" name="deckLoopIn-volume" channel="0" />
+  <button note="0x09" name="deckLoopOut-swing" channel="0" />
+  <button note="0x66" name="loopDeck-encoderbutton" channel="0" />
+  <!-- Control Change for toggleView -->
+  <button cc="0x64" name="toggleView-enter" channel="0" />
+  <button note="0x6B" name="grid" channel="0" />
+  
+   <jog cc="0x65" zero="0x40" full="512" inverted="true" name="bigEnconder" channel="0" />
+   <jog cc="0x12" zero="0x40" full="512" inverted="true" name="enc5" channel="0" />
+   <jog cc="0x13" zero="0x40" full="512" inverted="true" name="enc6" channel="0" />
+
+	<slider cc = "0x0E" ccmsb = "0x08" min="0x00" max="0x7F"  name = "enc1" channel = "0" />
+	<slider cc = "0x0F" ccmsb = "0x08" min="0x00" max="0x7F"  name = "enc2" channel = "0" />
+	<slider cc = "0x10" ccmsb = "0x08" min="0x00" max="0x7F"  name = "enc3" channel = "0" />
+	<slider cc = "0x11" ccmsb = "0x08" min="0x00" max="0x7F"  name = "enc4" channel = "0" />
+
+	<slider cc = "0x14" ccmsb = "0x08" min="0x00" max="0x7F"  name = "enc7" channel = "0" />
+	<slider cc = "0x15" ccmsb = "0x08" min="0x00" max="0x7F"  name = "enc8" channel = "0" />
+	<slider cc = "0x16" ccmsb = "0x08" min="0x00" max="0x7F"  name = "enc9" channel = "0" />
+	<slider cc = "0x17" ccmsb = "0x08" min="0x00" max="0x7F"  name = "enc10" channel = "0" />
+	<slider cc = "0x18" ccmsb = "0x08" min="0x00" max="0x7F"  name = "enc11" channel = "0" />
+	<slider cc = "0x19" ccmsb = "0x08" min="0x00" max="0x7F"  name = "enc12" channel = "0" />
+	<slider cc = "0x1A" ccmsb = "0x08" min="0x00" max="0x7F"  name = "enc13" channel = "0" />
+	<slider cc = "0x1B" ccmsb = "0x08" min="0x00" max="0x7F"  name = "enc14" channel = "0" />
+	<slider cc = "0x1C" ccmsb = "0x08" min="0x00" max="0x7F"  name = "enc15" channel = "0" />
+	<slider cc = "0x1D" ccmsb = "0x08" min="0x00" max="0x7F"  name = "enc16" channel = "0" />
+	<slider cc = "0x1E" ccmsb = "0x08" min="0x00" max="0x7F"  name = "enc17" channel = "0" />
+	<slider cc = "0x1F" ccmsb = "0x08" min="0x00" max="0x7F"  name = "enc18" channel = "0" />
+	<slider cc = "0x20" ccmsb = "0x08" min="0x00" max="0x7F"  name = "enc19" channel = "0" />
+	<slider cc = "0x21" ccmsb = "0x08" min="0x00" max="0x7F"  name = "enc20" channel = "0" />
+	<slider cc = "0x22" ccmsb = "0x08" min="0x00" max="0x7F"  name = "enc21" channel = "0" />
+	<slider cc = "0x23" ccmsb = "0x08" min="0x00" max="0x7F"  name = "enc22" channel = "0" />
+	<slider cc = "0x24" ccmsb = "0x08" min="0x00" max="0x7F"  name = "enc23" channel = "0" />
+	<slider cc = "0x25" ccmsb = "0x08" min="0x00" max="0x7F"  name = "enc24" channel = "0" />
+
+	<slider cc = "0x55" value = "0x7F" off = "0x00" name = "stopAll" channel = "0" />
+
+
+	<slider cc = "0x2E" value = "0x7F" off = "0x00" name = "samplerFx1" channel = "0" />
+	<slider cc = "0x2F" value = "0x7F" off = "0x00" name = "samplerFx2" channel = "0" />
+	<slider cc = "0x30" value = "0x7F" off = "0x00" name = "samplerFx3" channel = "0" />
+	<slider cc = "0x31" value = "0x7F" off = "0x00" name = "samplerFx4" channel = "0" />
+	<slider cc = "0x35" value = "0x7F" off = "0x00" name = "muteVolume" channel = "0" />
+	<slider cc = "0x34" value = "0x7F" off = "0x00" name = "PFL" channel = "0" />
+
+	<slider cc = "0x69" value = "0x7F" off = "0x00" name = "samplerLeft" channel = "0" />
+	<slider cc = "0x6A" value = "0x7F" off = "0x00" name = "samplerRight" channel = "0" />
+
+
+	<slider cc = "0x03" value = "0x7F" off = "0x00" name = "browseRecordings" channel = "0" />
+	<slider cc = "0x32" value = "0x7F" off = "0x00" name = "editor1" channel = "0" />
+	<slider cc = "0x33" value = "0x7F" off = "0x00" name = "editor2" channel = "0" />
+
+	<slider cc = "0x77" value = "0x7F" off = "0x00" name = "deleteSample-mute" channel = "0" />
+
+	<slider cc = "0x64" value = "0x7F" off = "0x00" name = "goBack-Enter" channel = "0" />
+	
+	
+	
+
+
+
+	<led note="0x0C" name="PAD1_LED" channel="0" min="0x00" max="0x7F" />
+	<led note="0x0D" name="PAD2_LED" channel="0" min="0x00" max="0x7F"/>
+	<led note="0x0E" name="PAD3_LED" channel="0" min="0x00" max="0x7F" />
+	<led note="0x0F" name="PAD4_LED" channel="0" min="0x00" max="0x7F" />
+	<led note="0x10" name="PAD5_LED" channel="0" min="0x00" max="0x7F" />
+	<led note="0x11" name="PAD6_LED" channel="0" min="0x00" max="0x7F" />
+	<led note="0x12" name="PAD7_LED" channel="0" min="0x00" max="0x7F" />
+	<led note="0x13" name="PAD8_LED" channel="0" min="0x00" max="0x7F" />
+	<led note="0x14" name="PAD9_LED" channel="0" min="0x00" max="0x7F" />
+	<led note="0x15" name="PAD10_LED" channel="0" min="0x00" max="0x7F" />
+	<led note="0x16" name="PAD11_LED" channel="0" min="0x00" max="0x7F" />
+	<led note="0x17" name="PAD12_LED" channel="0" min="0x00" max="0x7F" />
+	<led note="0x18" name="PAD13_LED" channel="0" min="0x00" max="0x7F" />
+	<led note="0x19" name="PAD14_LED" channel="0" min="0x00" max="0x7F" />
+	<led note="0x1A" name="PAD15_LED" channel="0" min="0x00" max="0x7F" />
+	<led note="0x1B" name="PAD16_LED" channel="0" min="0x00" max="0x7F" />
+
+
+
+
+
+</device>
